@@ -5,6 +5,10 @@ export const FormWrap = styled.div`
    padding: 40px;
    border: solid #FFF 1px;
    border-radius: 25px;
+   width: 350px;
+   height: 800px;
+   margin-left: auto;
+   margin-right: auto;
 `
 
 export const FormName = styled.h2`
@@ -99,4 +103,17 @@ export const FormBtn = styled.button`
 export const FormInfoWrap = styled.div`
    margin-top: 30px;
    margin-bottom: 30px;
+`
+
+export const FormCloseBtn = styled.button`
+  position: absolute;
+  right: 770px;
+  top: 50px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+
+  &:hover {
+  opacity: 1;
+   }
 `
