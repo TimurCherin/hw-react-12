@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { FormWrap, FormName, FormList, FormItem, FormItemName, FormItemInfo, FormItemPost, FormInfoList, FormInfoItem, FormPost, FormBtn, FormInfoWrap, FormCloseBtn } from "./modal.styled";
 import location from "../images/location.png"
 import copy from "../images/copy.png"

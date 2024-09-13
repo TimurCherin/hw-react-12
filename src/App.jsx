@@ -1,7 +1,6 @@
 import './App.css';
 import React, { Component } from "react";
 import ModalForm from './components/modal/modal.jsx';
-import { FormCloseBtn } from './components/modal/modal.styled.js';
 
 class App extends Component {
   state = {
