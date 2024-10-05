@@ -8,23 +8,21 @@ class App extends Component {
   }
 
   onOpen = () => {
-    this.setState(prevState => {
-      return ({ isOpen: true })
-    })
+    this.setState({ isOpen: true });
   }
 
   onClose = () => {
-    this.setState(prevState => {
-      return ({ isOpen: false })
-    })
+    this.setState({ isOpen: false });
   }
+
   render() {
     return (
       <>
-        {this.state.isOpen || <button type='button' onClick={this.onOpen}>Close</button>}
+        {this.state.isOpen || <button type='button' onClick={this.onOpen}>Open</button>}
         {this.state.isOpen && <ModalForm onClose={this.onClose}></ModalForm>}
       </>
     )
   }
 }
-export default App
+
+export default App;
